@@ -1,0 +1,35 @@
+@import 'onepage-scroll.css'
+
+html
+  color: white;
+  text-align center
+  font-family: sans-serif
+
+section
+  background: lighten(red, 40%);
+  &:nth-child(2)
+    background: lighten(red, 60%);
+  &:nth-child(3)
+    background: lighten(gray, 30%);
+  &:nth-child(4)
+    background: lighten(green, 80%);
+    
+//button
+.onepage-pagination li a.active:before
+  border: 1px solid white;
+.onepage-pagination li a:before
+  background: white//rgba(0,0,0,0.85);
+
+.active
+  h1
+    //forwards for ne repeat the animation
+    animation: slideInFromLeft 2s forwards
+   
+@keyframes slideInFromLeft
+  0%
+    margin-left: -100%
+  100%
+    margin-left: 0%
+    
+
+  

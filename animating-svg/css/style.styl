@@ -1,0 +1,48 @@
+@keyframes spin
+  0%
+    transform: rotate(0deg);
+  100%
+    transform: rotate(359deg);
+//petal
+#Layer_5
+  animation: spin 9s linear infinite;
+  transform-origin: center;
+
+@keyframes wave
+  0%
+    transform: rotate(0deg);
+  50%
+    transform: rotate(3deg);
+  100%
+    transform: rotate(0deg);
+// leaf
+#Layer_4
+  animation: wave 400ms linear infinite;
+  transform-origin: bottom left;
+
+svg
+  animation: wave 4s linear infinite;
+  transform-origin: bottom;
+
+
+//
+//  display: inline-block;
+//  nav
+//    max-height: 0
+//    overflow: hidden;
+//    transition: all 700ms ease
+//    a
+//      display: block
+//  &:hover
+//    nav
+//      max-height: 499px
+//
+//a
+//  display: inline-block;
+//  background: lighten(blue, 20%)
+//  color: white;
+//  text-decoration: none;
+//  padding: 1em 2em;
+//  font-family: sans-serif;
+//   
+//  

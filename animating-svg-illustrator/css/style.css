@@ -1,0 +1,9 @@
+svg path,
+svg line,
+svg polyline {
+  stroke: #000;
+  stroke-width: 2px;
+}
+svg path {
+  fill: transparent;
+}

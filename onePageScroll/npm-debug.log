@@ -1,0 +1,518 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'stylus',
+1 verbose cli   'autoprefixer',
+1 verbose cli   '-stylus' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'stylus', null ]
+5 verbose cache add name=undefined spec="stylus" args=["stylus",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'stylus',
+6 verbose parsed url   path: 'stylus',
+6 verbose parsed url   href: 'stylus' }
+7 verbose cache add [ 'autoprefixer', null ]
+8 verbose cache add name=undefined spec="autoprefixer" args=["autoprefixer",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'autoprefixer',
+9 verbose parsed url   path: 'autoprefixer',
+9 verbose parsed url   href: 'autoprefixer' }
+10 silly lockFile 27c0f414-stylus stylus
+11 verbose lock stylus /Users/xavi/.npm/27c0f414-stylus.lock
+12 silly lockFile 87dfe145-autoprefixer autoprefixer
+13 verbose lock autoprefixer /Users/xavi/.npm/87dfe145-autoprefixer.lock
+14 silly lockFile 27c0f414-stylus stylus
+15 silly lockFile 27c0f414-stylus stylus
+16 silly lockFile 87dfe145-autoprefixer autoprefixer
+17 silly lockFile 87dfe145-autoprefixer autoprefixer
+18 verbose addNamed [ 'stylus', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile 5140332e-stylus stylus@
+21 verbose lock stylus@ /Users/xavi/.npm/5140332e-stylus.lock
+22 verbose addNamed [ 'autoprefixer', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 5b54af58-autoprefixer autoprefixer@
+25 verbose lock autoprefixer@ /Users/xavi/.npm/5b54af58-autoprefixer.lock
+26 silly addNameRange { name: 'stylus', range: '*', hasData: false }
+27 silly addNameRange { name: 'autoprefixer', range: '*', hasData: false }
+28 verbose request where is /stylus
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id 97a1ee82d92c0d63
+31 verbose url raw /stylus
+32 verbose url resolving [ 'https://registry.npmjs.org/', './stylus' ]
+33 verbose url resolved https://registry.npmjs.org/stylus
+34 verbose request where is https://registry.npmjs.org/stylus
+35 info trying registry request attempt 1 at 23:16:52
+36 http GET https://registry.npmjs.org/stylus
+37 verbose request where is /autoprefixer
+38 verbose request registry https://registry.npmjs.org/
+39 verbose url raw /autoprefixer
+40 verbose url resolving [ 'https://registry.npmjs.org/', './autoprefixer' ]
+41 verbose url resolved https://registry.npmjs.org/autoprefixer
+42 verbose request where is https://registry.npmjs.org/autoprefixer
+43 info trying registry request attempt 1 at 23:16:52
+44 http GET https://registry.npmjs.org/autoprefixer
+45 http 200 https://registry.npmjs.org/stylus
+46 silly registry.get cb [ 200,
+46 silly registry.get   { date: 'Mon, 09 Feb 2015 05:16:52 GMT',
+46 silly registry.get     server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+46 silly registry.get     etag: '"4G17UAGVYX56RDTB0KOG44O76"',
+46 silly registry.get     'content-type': 'application/json',
+46 silly registry.get     'cache-control': 'max-age=60',
+46 silly registry.get     'content-length': '178819',
+46 silly registry.get     'accept-ranges': 'bytes',
+46 silly registry.get     via: '1.1 varnish',
+46 silly registry.get     age: '0',
+46 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+46 silly registry.get     'x-cache': 'HIT',
+46 silly registry.get     'x-cache-hits': '1',
+46 silly registry.get     'x-timer': 'S1423459012.543214,VS0,VE41',
+46 silly registry.get     vary: 'Accept',
+46 silly registry.get     'keep-alive': 'timeout=10, max=50',
+46 silly registry.get     connection: 'Keep-Alive' } ]
+47 silly addNameRange number 2 { name: 'stylus', range: '*', hasData: true }
+48 silly addNameRange versions [ 'stylus',
+48 silly addNameRange   [ '0.0.1',
+48 silly addNameRange     '0.0.2',
+48 silly addNameRange     '0.1.0',
+48 silly addNameRange     '0.2.0',
+48 silly addNameRange     '0.2.1',
+48 silly addNameRange     '0.3.0',
+48 silly addNameRange     '0.3.1',
+48 silly addNameRange     '0.4.0',
+48 silly addNameRange     '0.4.1',
+48 silly addNameRange     '0.5.0',
+48 silly addNameRange     '0.5.1',
+48 silly addNameRange     '0.5.2',
+48 silly addNameRange     '0.5.3',
+48 silly addNameRange     '0.6.0',
+48 silly addNameRange     '0.6.2',
+48 silly addNameRange     '0.6.3',
+48 silly addNameRange     '0.6.4',
+48 silly addNameRange     '0.6.5',
+48 silly addNameRange     '0.6.6',
+48 silly addNameRange     '0.6.7',
+48 silly addNameRange     '0.7.0',
+48 silly addNameRange     '0.7.1',
+48 silly addNameRange     '0.7.2',
+48 silly addNameRange     '0.7.3',
+48 silly addNameRange     '0.7.4',
+48 silly addNameRange     '0.8.0',
+48 silly addNameRange     '0.9.0',
+48 silly addNameRange     '0.9.1',
+48 silly addNameRange     '0.9.2',
+48 silly addNameRange     '0.10.0',
+48 silly addNameRange     '0.11.0',
+48 silly addNameRange     '0.11.1',
+48 silly addNameRange     '0.11.2',
+48 silly addNameRange     '0.11.3',
+48 silly addNameRange     '0.11.4',
+48 silly addNameRange     '0.11.5',
+48 silly addNameRange     '0.11.6',
+48 silly addNameRange     '0.11.7',
+48 silly addNameRange     '0.11.8',
+48 silly addNameRange     '0.11.9',
+48 silly addNameRange     '0.11.10',
+48 silly addNameRange     '0.11.11',
+48 silly addNameRange     '0.11.12',
+48 silly addNameRange     '0.12.0',
+48 silly addNameRange     '0.12.1',
+48 silly addNameRange     '0.12.2',
+48 silly addNameRange     '0.12.3',
+48 silly addNameRange     '0.12.4',
+48 silly addNameRange     '0.13.0',
+48 silly addNameRange     '0.13.1',
+48 silly addNameRange     '0.13.2',
+48 silly addNameRange     '0.13.3',
+48 silly addNameRange     '0.13.4',
+48 silly addNameRange     '0.13.5',
+48 silly addNameRange     '0.13.6',
+48 silly addNameRange     '0.13.7',
+48 silly addNameRange     '0.13.8',
+48 silly addNameRange     '0.13.9',
+48 silly addNameRange     '0.14.0',
+48 silly addNameRange     '0.15.0',
+48 silly addNameRange     '0.15.1',
+48 silly addNameRange     '0.15.2',
+48 silly addNameRange     '0.15.3',
+48 silly addNameRange     '0.15.4',
+48 silly addNameRange     '0.16.0',
+48 silly addNameRange     '0.17.0',
+48 silly addNameRange     '0.18.0',
+48 silly addNameRange     '0.19.0',
+48 silly addNameRange     '0.19.1',
+48 silly addNameRange     '0.19.2',
+48 silly addNameRange     '0.19.3',
+48 silly addNameRange     '0.19.4',
+48 silly addNameRange     '0.19.5',
+48 silly addNameRange     '0.19.6',
+48 silly addNameRange     '0.19.7',
+48 silly addNameRange     '0.19.8',
+48 silly addNameRange     '0.20.0',
+48 silly addNameRange     '0.20.1',
+48 silly addNameRange     '0.21.0',
+48 silly addNameRange     '0.21.1',
+48 silly addNameRange     '0.21.2',
+48 silly addNameRange     '0.22.0',
+48 silly addNameRange     '0.22.1',
+48 silly addNameRange     '0.22.2',
+48 silly addNameRange     '0.22.3',
+48 silly addNameRange     '0.22.4',
+48 silly addNameRange     '0.22.5',
+48 silly addNameRange     '0.22.6',
+48 silly addNameRange     '0.23.0',
+48 silly addNameRange     '0.24.0',
+48 silly addNameRange     '0.25.0',
+48 silly addNameRange     '0.26.0',
+48 silly addNameRange     '0.26.1',
+48 silly addNameRange     '0.27.0',
+48 silly addNameRange     '0.27.1',
+48 silly addNameRange     '0.27.2',
+48 silly addNameRange     '0.28.0',
+48 silly addNameRange     '0.28.1',
+48 silly addNameRange     '0.28.2',
+48 silly addNameRange     '0.29.0',
+48 silly addNameRange     '0.30.0',
+48 silly addNameRange     '0.30.1',
+48 silly addNameRange     '0.31.0',
+48 silly addNameRange     '0.32.0',
+48 silly addNameRange     '0.32.1',
+48 silly addNameRange     '0.33.0',
+48 silly addNameRange     '0.33.1',
+48 silly addNameRange     '0.34.0',
+48 silly addNameRange     '0.34.1',
+48 silly addNameRange     '0.35.0',
+48 silly addNameRange     '0.35.1',
+48 silly addNameRange     '0.36.0',
+48 silly addNameRange     '0.36.1',
+48 silly addNameRange     '0.37.0',
+48 silly addNameRange     '0.38.0',
+48 silly addNameRange     '0.39.0',
+48 silly addNameRange     '0.39.1',
+48 silly addNameRange     '0.39.2',
+48 silly addNameRange     '0.39.3',
+48 silly addNameRange     '0.39.4',
+48 silly addNameRange     '0.40.0',
+48 silly addNameRange     '0.40.1',
+48 silly addNameRange     '0.40.2',
+48 silly addNameRange     '0.40.3',
+48 silly addNameRange     '0.41.0',
+48 silly addNameRange     '0.41.1',
+48 silly addNameRange     '0.41.2',
+48 silly addNameRange     '0.41.3',
+48 silly addNameRange     '0.42.0',
+48 silly addNameRange     '0.42.1',
+48 silly addNameRange     '0.42.2',
+48 silly addNameRange     '0.42.3',
+48 silly addNameRange     '0.43.0',
+48 silly addNameRange     '0.44.0-beta',
+48 silly addNameRange     '0.43.1',
+48 silly addNameRange     '0.44.0-beta2',
+48 silly addNameRange     '0.44.0-beta3',
+48 silly addNameRange     '0.44.0',
+48 silly addNameRange     '0.45.0',
+48 silly addNameRange     '0.45.1',
+48 silly addNameRange     '0.46.0',
+48 silly addNameRange     '0.46.1',
+48 silly addNameRange     '0.46.2',
+48 silly addNameRange     '0.46.3',
+48 silly addNameRange     '0.47.0',
+48 silly addNameRange     '0.47.1',
+48 silly addNameRange     '0.47.2',
+48 silly addNameRange     '0.47.3',
+48 silly addNameRange     '0.48.0',
+48 silly addNameRange     '0.48.1',
+48 silly addNameRange     '0.49.0',
+48 silly addNameRange     '0.49.1',
+48 silly addNameRange     '0.49.2',
+48 silly addNameRange     '0.49.3',
+48 silly addNameRange     '0.50.0' ] ]
+49 verbose addNamed [ 'stylus', '0.50.0' ]
+50 verbose addNamed [ '0.50.0', '0.50.0' ]
+51 silly lockFile d62b8ad9-stylus-0-50-0 stylus@0.50.0
+52 verbose lock stylus@0.50.0 /Users/xavi/.npm/d62b8ad9-stylus-0-50-0.lock
+53 silly lockFile f0329472-mjs-org-stylus-stylus-0-50-0-tgz https://registry.npmjs.org/stylus/-/stylus-0.50.0.tgz
+54 verbose lock https://registry.npmjs.org/stylus/-/stylus-0.50.0.tgz /Users/xavi/.npm/f0329472-mjs-org-stylus-stylus-0-50-0-tgz.lock
+55 verbose addRemoteTarball [ 'https://registry.npmjs.org/stylus/-/stylus-0.50.0.tgz',
+55 verbose addRemoteTarball   '2391f0df1ce1dde55a5a8df26b6906a9425ced05' ]
+56 info retry fetch attempt 1 at 23:16:52
+57 verbose fetch to= /var/folders/t1/dzcbnfkj0x926nw4zcrn9_t80000gn/T/npm-5375-FMF3Hr4Q/registry.npmjs.org/stylus/-/stylus-0.50.0.tgz
+58 http GET https://registry.npmjs.org/stylus/-/stylus-0.50.0.tgz
+59 http 200 https://registry.npmjs.org/autoprefixer
+60 silly registry.get cb [ 200,
+60 silly registry.get   { date: 'Mon, 09 Feb 2015 05:16:52 GMT',
+60 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+60 silly registry.get     etag: '"5H7XB722SNMU9Z54DCZZAT3BA"',
+60 silly registry.get     'content-type': 'application/json',
+60 silly registry.get     'cache-control': 'max-age=60',
+60 silly registry.get     'content-length': '122939',
+60 silly registry.get     'accept-ranges': 'bytes',
+60 silly registry.get     via: '1.1 varnish',
+60 silly registry.get     age: '0',
+60 silly registry.get     'x-served-by': 'cache-dfw1824-DFW',
+60 silly registry.get     'x-cache': 'HIT',
+60 silly registry.get     'x-cache-hits': '1',
+60 silly registry.get     'x-timer': 'S1423459012.537989,VS0,VE256',
+60 silly registry.get     vary: 'Accept',
+60 silly registry.get     'keep-alive': 'timeout=10, max=50',
+60 silly registry.get     connection: 'Keep-Alive' } ]
+61 silly addNameRange number 2 { name: 'autoprefixer', range: '*', hasData: true }
+62 silly addNameRange versions [ 'autoprefixer',
+62 silly addNameRange   [ '0.1.20130409',
+62 silly addNameRange     '0.2.20130413',
+62 silly addNameRange     '0.3.20130423',
+62 silly addNameRange     '0.3.20130424',
+62 silly addNameRange     '0.3.20130427',
+62 silly addNameRange     '0.3.20130502',
+62 silly addNameRange     '0.4.20130507',
+62 silly addNameRange     '0.4.20130515',
+62 silly addNameRange     '0.4.20130521',
+62 silly addNameRange     '0.4.20130524',
+62 silly addNameRange     '0.4.20130528',
+62 silly addNameRange     '0.4.20130530',
+62 silly addNameRange     '0.4.20130603',
+62 silly addNameRange     '0.5.20130615',
+62 silly addNameRange     '0.5.20130616',
+62 silly addNameRange     '0.5.20130617',
+62 silly addNameRange     '0.5.20130625',
+62 silly addNameRange     '0.5.20130626',
+62 silly addNameRange     '0.5.20130629',
+62 silly addNameRange     '0.6.20130716',
+62 silly addNameRange     '0.6.20130721',
+62 silly addNameRange     '0.6.20130728',
+62 silly addNameRange     '0.6.20130729',
+62 silly addNameRange     '0.6.20130730',
+62 silly addNameRange     '0.6.20130731',
+62 silly addNameRange     '0.7.20130805',
+62 silly addNameRange     '0.7.20130806',
+62 silly addNameRange     '0.7.20130807',
+62 silly addNameRange     '0.7.20130808',
+62 silly addNameRange     '0.7.20130810',
+62 silly addNameRange     '0.7.20130824',
+62 silly addNameRange     '0.8.20130902',
+62 silly addNameRange     '0.8.20130903',
+62 silly addNameRange     '0.8.20130906',
+62 silly addNameRange     '0.8.20130911',
+62 silly addNameRange     '0.8.20130919',
+62 silly addNameRange     '0.8.20130923',
+62 silly addNameRange     '0.8.20131001',
+62 silly addNameRange     '0.8.20131006',
+62 silly addNameRange     '0.8.20131007',
+62 silly addNameRange     '0.8.20131009',
+62 silly addNameRange     '0.8.20131015',
+62 silly addNameRange     '0.8.20131017',
+62 silly addNameRange     '0.8.20131020',
+62 silly addNameRange     '0.8.20131029',
+62 silly addNameRange     '0.8.20131104',
+62 silly addNameRange     '0.8.20131209',
+62 silly addNameRange     '0.8.20131213',
+62 silly addNameRange     '1.0.20131222',
+62 silly addNameRange     '1.0.20140103',
+62 silly addNameRange     '1.0.20140109',
+62 silly addNameRange     '1.0.20140110',
+62 silly addNameRange     '1.0.20140117',
+62 silly addNameRange     '1.0.20140130',
+62 silly addNameRange     '1.0.20140203',
+62 silly addNameRange     '1.0.20140213',
+62 silly addNameRange     '1.1.20140218',
+62 silly addNameRange     '1.1.20140222',
+62 silly addNameRange     '1.1.20140226',
+62 silly addNameRange     '1.1.20140302',
+62 silly addNameRange     '1.1.20140319',
+62 silly addNameRange     '1.1.20140327',
+62 silly addNameRange     '1.1.20140403',
+62 silly addNameRange     '1.1.20140410',
+62 silly addNameRange     '1.1.20140429',
+62 silly addNameRange     '1.1.20140430',
+62 silly addNameRange     '1.1.20140510',
+62 silly addNameRange     '1.1.20140512',
+62 silly addNameRange     '1.1.20140521',
+62 silly addNameRange     '1.1.20140523',
+62 silly addNameRange     '1.1.20140605',
+62 silly addNameRange     '1.2.0',
+62 silly addNameRange     '1.3.0',
+62 silly addNameRange     '1.3.1',
+62 silly addNameRange     '2.0.0',
+62 silly addNameRange     '2.0.1',
+62 silly addNameRange     '2.0.2',
+62 silly addNameRange     '2.1.0',
+62 silly addNameRange     '2.1.1',
+62 silly addNameRange     '2.2.0',
+62 silly addNameRange     '3.0.0',
+62 silly addNameRange     '3.1.0',
+62 silly addNameRange     '4.0.0',
+62 silly addNameRange     '5.0.0',
+62 silly addNameRange     '5.1.0' ] ]
+63 verbose addNamed [ 'autoprefixer', '5.1.0' ]
+64 verbose addNamed [ '5.1.0', '5.1.0' ]
+65 silly lockFile 16b624bd-autoprefixer-5-1-0 autoprefixer@5.1.0
+66 verbose lock autoprefixer@5.1.0 /Users/xavi/.npm/16b624bd-autoprefixer-5-1-0.lock
+67 silly lockFile 51b60104-oprefixer-autoprefixer-5-1-0-tgz https://registry.npmjs.org/autoprefixer/-/autoprefixer-5.1.0.tgz
+68 verbose lock https://registry.npmjs.org/autoprefixer/-/autoprefixer-5.1.0.tgz /Users/xavi/.npm/51b60104-oprefixer-autoprefixer-5-1-0-tgz.lock
+69 verbose addRemoteTarball [ 'https://registry.npmjs.org/autoprefixer/-/autoprefixer-5.1.0.tgz',
+69 verbose addRemoteTarball   '2db51c2461b294c35b7745e197791735cf54af41' ]
+70 info retry fetch attempt 1 at 23:16:52
+71 verbose fetch to= /var/folders/t1/dzcbnfkj0x926nw4zcrn9_t80000gn/T/npm-5375-FMF3Hr4Q/registry.npmjs.org/autoprefixer/-/autoprefixer-5.1.0.tgz
+72 http GET https://registry.npmjs.org/autoprefixer/-/autoprefixer-5.1.0.tgz
+73 http 200 https://registry.npmjs.org/stylus/-/stylus-0.50.0.tgz
+74 http 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-5.1.0.tgz
+75 silly lockFile f0329472-mjs-org-stylus-stylus-0-50-0-tgz https://registry.npmjs.org/stylus/-/stylus-0.50.0.tgz
+76 silly lockFile f0329472-mjs-org-stylus-stylus-0-50-0-tgz https://registry.npmjs.org/stylus/-/stylus-0.50.0.tgz
+77 silly lockFile d62b8ad9-stylus-0-50-0 stylus@0.50.0
+78 silly lockFile d62b8ad9-stylus-0-50-0 stylus@0.50.0
+79 silly lockFile 5140332e-stylus stylus@
+80 silly lockFile 5140332e-stylus stylus@
+81 silly lockFile 51b60104-oprefixer-autoprefixer-5-1-0-tgz https://registry.npmjs.org/autoprefixer/-/autoprefixer-5.1.0.tgz
+82 silly lockFile 51b60104-oprefixer-autoprefixer-5-1-0-tgz https://registry.npmjs.org/autoprefixer/-/autoprefixer-5.1.0.tgz
+83 silly lockFile 16b624bd-autoprefixer-5-1-0 autoprefixer@5.1.0
+84 silly lockFile 16b624bd-autoprefixer-5-1-0 autoprefixer@5.1.0
+85 silly lockFile 5b54af58-autoprefixer autoprefixer@
+86 silly lockFile 5b54af58-autoprefixer autoprefixer@
+87 silly resolved [ { name: 'stylus',
+87 silly resolved     description: 'Robust, expressive, and feature-rich CSS superset',
+87 silly resolved     version: '0.50.0',
+87 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+87 silly resolved     keywords: [ 'css', 'parser', 'style', 'stylesheets', 'jade', 'language' ],
+87 silly resolved     repository: { type: 'git', url: 'git://github.com/LearnBoost/stylus' },
+87 silly resolved     main: './index.js',
+87 silly resolved     browserify: './lib/browserify.js',
+87 silly resolved     engines: { node: '*' },
+87 silly resolved     bin: { stylus: './bin/stylus' },
+87 silly resolved     scripts:
+87 silly resolved      { prepublish: 'npm prune',
+87 silly resolved        test: 'mocha test/ test/middleware/ --require should --bail --reporter dot',
+87 silly resolved        'test-cov': 'mocha test/ test/middleware/ --require should --bail --reporter html-cov > coverage.html' },
+87 silly resolved     dependencies:
+87 silly resolved      { 'css-parse': '1.7.x',
+87 silly resolved        mkdirp: '0.3.x',
+87 silly resolved        debug: '*',
+87 silly resolved        sax: '0.5.x',
+87 silly resolved        glob: '3.2.x',
+87 silly resolved        'source-map': '0.1.x' },
+87 silly resolved     devDependencies: { should: '2.x', mocha: '*', jscoverage: '0.3.8' },
+87 silly resolved     bugs: { url: 'https://github.com/LearnBoost/stylus/issues' },
+87 silly resolved     homepage: 'https://github.com/LearnBoost/stylus',
+87 silly resolved     directories: { doc: 'docs', example: 'examples', test: 'test' },
+87 silly resolved     license: 'MIT',
+87 silly resolved     _id: 'stylus@0.50.0',
+87 silly resolved     _shasum: '2391f0df1ce1dde55a5a8df26b6906a9425ced05',
+87 silly resolved     _from: 'stylus@',
+87 silly resolved     _npmVersion: '1.4.9',
+87 silly resolved     _npmUser: { name: 'kizu', email: 'kizmarh@ya.ru' },
+87 silly resolved     maintainers: [ [Object], [Object] ],
+87 silly resolved     dist:
+87 silly resolved      { shasum: '2391f0df1ce1dde55a5a8df26b6906a9425ced05',
+87 silly resolved        tarball: 'http://registry.npmjs.org/stylus/-/stylus-0.50.0.tgz' },
+87 silly resolved     _resolved: 'https://registry.npmjs.org/stylus/-/stylus-0.50.0.tgz' },
+87 silly resolved   { name: 'autoprefixer',
+87 silly resolved     version: '5.1.0',
+87 silly resolved     description: 'Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website',
+87 silly resolved     keywords: [ 'css', 'prefix', 'postprocessor', 'postcss' ],
+87 silly resolved     author: { name: 'Andrey Sitnik', email: 'andrey@sitnik.ru' },
+87 silly resolved     license: 'MIT',
+87 silly resolved     repository:
+87 silly resolved      { type: 'git',
+87 silly resolved        url: 'https://github.com/postcss/autoprefixer.git' },
+87 silly resolved     dependencies:
+87 silly resolved      { 'autoprefixer-core': '~5.1.0',
+87 silly resolved        'fs-extra': '~0.16.3',
+87 silly resolved        postcss: '~4.0.2' },
+87 silly resolved     devDependencies:
+87 silly resolved      { 'gulp-bench-summary': '0.1.0',
+87 silly resolved        'gulp-json-editor': '2.2.1',
+87 silly resolved        'jshint-stylish': '1.0.0',
+87 silly resolved        'gulp-replace': '0.5.2',
+87 silly resolved        'gulp-jshint': '1.9.0',
+87 silly resolved        'gulp-bench': '1.1.0',
+87 silly resolved        'gulp-mocha': '2.0.0',
+87 silly resolved        'gulp-6to5': '3.0.0',
+87 silly resolved        'gulp-util': '3.0.2',
+87 silly resolved        request: '2.51.0',
+87 silly resolved        stylus: '0.49.3',
+87 silly resolved        mocha: '2.1.0',
+87 silly resolved        gulp: '3.8.10',
+87 silly resolved        chai: '1.10.0',
+87 silly resolved        nib: '1.1.0',
+87 silly resolved        '6to5': '3.0.16' },
+87 silly resolved     bin: { autoprefixer: 'autoprefixer' },
+87 silly resolved     scripts: { test: 'gulp' },
+87 silly resolved     bugs: { url: 'https://github.com/postcss/autoprefixer/issues' },
+87 silly resolved     homepage: 'https://github.com/postcss/autoprefixer',
+87 silly resolved     _id: 'autoprefixer@5.1.0',
+87 silly resolved     _shasum: '2db51c2461b294c35b7745e197791735cf54af41',
+87 silly resolved     _from: 'autoprefixer@',
+87 silly resolved     _npmVersion: '2.1.18',
+87 silly resolved     _nodeVersion: '0.10.33',
+87 silly resolved     _npmUser: { name: 'ai', email: 'andrey@sitnik.ru' },
+87 silly resolved     maintainers: [ [Object], [Object] ],
+87 silly resolved     dist:
+87 silly resolved      { shasum: '2db51c2461b294c35b7745e197791735cf54af41',
+87 silly resolved        tarball: 'http://registry.npmjs.org/autoprefixer/-/autoprefixer-5.1.0.tgz' },
+87 silly resolved     directories: {},
+87 silly resolved     _resolved: 'https://registry.npmjs.org/autoprefixer/-/autoprefixer-5.1.0.tgz' } ]
+88 info install stylus@0.50.0 into /usr/local/lib
+89 info install autoprefixer@5.1.0 into /usr/local/lib
+90 info installOne stylus@0.50.0
+91 info installOne autoprefixer@5.1.0
+92 verbose lib/node_modules/stylus unbuild
+93 verbose lib/node_modules/autoprefixer unbuild
+94 verbose tar unpack /Users/xavi/.npm/stylus/0.50.0/package.tgz
+95 silly lockFile 4aac4a2d-sr-local-lib-node-modules-stylus tar:///usr/local/lib/node_modules/stylus
+96 verbose lock tar:///usr/local/lib/node_modules/stylus /Users/xavi/.npm/4aac4a2d-sr-local-lib-node-modules-stylus.lock
+97 silly lockFile 61efb382-vi-npm-stylus-0-50-0-package-tgz tar:///Users/xavi/.npm/stylus/0.50.0/package.tgz
+98 verbose lock tar:///Users/xavi/.npm/stylus/0.50.0/package.tgz /Users/xavi/.npm/61efb382-vi-npm-stylus-0-50-0-package-tgz.lock
+99 verbose tar unpack /Users/xavi/.npm/autoprefixer/5.1.0/package.tgz
+100 silly lockFile c67ba069-al-lib-node-modules-autoprefixer tar:///usr/local/lib/node_modules/autoprefixer
+101 verbose lock tar:///usr/local/lib/node_modules/autoprefixer /Users/xavi/.npm/c67ba069-al-lib-node-modules-autoprefixer.lock
+102 silly lockFile 95dc93d1-m-autoprefixer-5-1-0-package-tgz tar:///Users/xavi/.npm/autoprefixer/5.1.0/package.tgz
+103 verbose lock tar:///Users/xavi/.npm/autoprefixer/5.1.0/package.tgz /Users/xavi/.npm/95dc93d1-m-autoprefixer-5-1-0-package-tgz.lock
+104 silly gunzTarPerm modes [ '755', '644' ]
+105 silly gunzTarPerm modes [ '755', '644' ]
+106 error Error: EACCES, mkdir '/usr/local/lib/node_modules/stylus'
+106 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/stylus']
+106 error   errno: 3,
+106 error   code: 'EACCES',
+106 error   path: '/usr/local/lib/node_modules/stylus',
+106 error   fstream_type: 'Directory',
+106 error   fstream_path: '/usr/local/lib/node_modules/stylus',
+106 error   fstream_class: 'DirWriter',
+106 error   fstream_stack:
+106 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+106 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+106 error      'Object.oncomplete (fs.js:108:15)' ] }
+107 error Please try running this command again as root/Administrator.
+108 error System Darwin 14.0.0
+109 error command "node" "/usr/local/bin/npm" "install" "-g" "stylus" "autoprefixer" "-stylus"
+110 error cwd /Applications/MAMP/htdocs/understanding-Css-animatiom
+111 error node -v v0.10.35
+112 error npm -v 1.4.28
+113 error path /usr/local/lib/node_modules/stylus
+114 error fstream_path /usr/local/lib/node_modules/stylus
+115 error fstream_type Directory
+116 error fstream_class DirWriter
+117 error code EACCES
+118 error errno 3
+119 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/stylus'
+120 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+120 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+120 error fstream_stack Object.oncomplete (fs.js:108:15)
+121 verbose exit [ 3, true ]

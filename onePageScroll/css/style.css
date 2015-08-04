@@ -1,0 +1,44 @@
+@import 'onepage-scroll.css';
+html {
+  color: #fff;
+text-align: center;
+  font-family: sans-serif;
+}
+section {
+  background: #f66;
+}
+section:nth-child(2) {
+  background: #f99;
+}
+section:nth-child(3) {
+  background: #a6a6a6;
+}
+section:nth-child(4) {
+  background: #b3ffb3;
+}
+.onepage-pagination li a.active:before {
+  border: 1px solid #fff;
+}
+.onepage-pagination li a:before {
+  background: #fff;
+}
+.active h1 {
+  -webkit-animation: slideInFromLeft 2s forwards;
+  animation: slideInFromLeft 2s forwards;
+}
+@-webkit-keyframes slideInFromLeft {
+  0% {
+    margin-left: -100%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+@keyframes slideInFromLeft {
+  0% {
+    margin-left: -100%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}

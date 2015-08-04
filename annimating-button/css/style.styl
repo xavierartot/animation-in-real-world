@@ -1,0 +1,81 @@
+// bonton anime simple
+//html
+//  padding 3rem
+//button
+//  background: lighten(red, 20%)
+//  color white
+//  border 0
+//  padding 1em 3em
+//  border-radius 3px
+//  cursor pointer 
+//  border-bottom 3px solid darken(red, 10%)
+//  outline none
+//  position relative
+//  overflow hidden
+//  &:hover
+//    border-bottom-width 2px
+//    margin-top 1px
+//  &:active, &:focus
+//    border-bottom-width 1px
+//    margin-top 2px
+//    
+//  .btn-text
+//    position relative
+//    z-index 1
+//  .btn-bg
+//    position absolute
+//    top -100%
+//    left 0px
+//    width 100%
+//    height 200%
+//    transition all 600ms ease
+//    background linear-gradient(to bottom, lighten(red, 40%),
+//      lighten(red, 10%)) 
+//  &:hover
+//    .btn-bg
+//      top 0
+  
+
+html
+  padding 3rem
+button
+  background: lighten(red, 20%)
+  color white
+  border 0
+  padding 1em 3em
+  border-radius 3px
+  cursor pointer 
+  border-bottom 3px solid darken(red, 10%)
+  outline none
+  position relative // sinon le bonton prend toute la page en espace
+  overflow hidden // ne montre seulement le bouton
+  &:hover
+    border-bottom-width 2px
+    margin-top 1px
+  &:active, &:focus
+    border-bottom-width 1px
+    margin-top 2px
+    animation: shakeBtn 20ms infinite
+    
+  .btn-text
+    position relative // met le texte au dessus du bouton
+    z-index 1
+  .btn-bg
+    position absolute
+    top -100%
+    left 0px
+    width 100%
+    height 200%
+    transition all 600ms ease
+    background linear-gradient(to bottom, lighten(red, 40%),
+      lighten(red, 10%)) 
+  &:hover
+    .btn-bg
+      top 0
+  
+@keyframes shakeBtn
+  25%
+    left: -1%
+  50%
+    right: -1%
+  
